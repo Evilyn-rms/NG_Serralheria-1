@@ -24,9 +24,6 @@ nav{
    
 }
 
-nav > a:hover{
-    opacity: 0.3;
-}
 a{
     color: black ;
 }
@@ -62,19 +59,32 @@ section{
     flex-wrap: wrap;
     margin: 100px;
     padding: 50px;
+    text-align: center;
 }
 section img{
     margin: 15px;
     width: 100px;
 }
-
+.box{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(102, 184, 102);
+    border-radius: 79px;
+    width: auto;
+}
+.abacaxi{
+    flex-direction: row;
+    /* display: flex; */
+    justify-content: center;
+}
 /* rodape da pagina */
 
 footer{
+    background-color: rgb(65, 165, 115);
     padding: 25px;
     margin-top: 20px;
     border-top: 0.4px solid greenyellow;
-    text-align: center;
-
-    
+    text-align: center;  
 }
