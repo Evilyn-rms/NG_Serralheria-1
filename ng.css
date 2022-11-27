@@ -22,6 +22,22 @@ header{
     margin-bottom: 0px;
 }
 
+.inicio{
+    background-image: url(./Fotos/img-principal-editada.png);
+    padding: 205px;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+
+.txt_inicio{
+    color: rgba(247, 247, 247, 0.719);
+    background-color: rgba(158, 32, 32, 0.438);
+    border-radius: 20px;
+    
+}
+
 nav{
     display: flex;
     gap: 40px;
@@ -46,9 +62,9 @@ main{
 }
 
 .slides{
-    width: 600px;
-    height: 190px;
-    /*outline: 3px solid rgba(166, 3, 3, 0.69);*/
+    width: 400px;
+    height: 300px;
+    outline: 3px solid rgba(166, 3, 3, 0.69);
     overflow: hidden;
     margin: 50px auto;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
@@ -63,49 +79,24 @@ main{
 
 .slides li{
     position: relative;
-    animation: slide 15s infinite ease-in-out;
+    animation: slide 13s infinite alternate;
 }
 
 @keyframes slide{
     0%{left: 0px}
-    10%{left: 0px;}
-    30%{left: -200px;}
-    40%{left: -200px;}
-    50%{left: -300px;}
-    55%{left: -300px;}
-    60%{left: -450px;}
-    70%{left: -450px;}
-    80%{left: -600px;}
-    90%{left: -600px;}
-    100%{left: 0px;}
+    8%{left: 0px;}
+    18%{left: -400px}
+    28%{left: -400px}
+    38%{left: -800px}
+    48%{left: -800px}
+    58%{left: -1200px}
+    68%{left: -1200px}
+    78%{left: -1600px}
+    88%{left: -1600px}
+    98%{left: -2000px}
+    100%{left: -2000px;}
 }
 
-.slides2{
-    width: 280px;
-    height: 185px;
-    outline: 3px solid rgba(166, 3, 3, 0.69);
-    /*overflow: hidden;*/
-    margin: 50px auto;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
-}
-
-
-.slides2 ul{
-    display: flex;
-    list-style: none;
-    width: 1200px;
-    height: 250px;
-}
-
-
-.inicio{
-    background-image: url(./Fotos/img-principal-editada.png);
-    color: rgba(247, 247, 247, 0.719);
-    padding: 205px;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
 h1{
     margin: 15px;
 }
@@ -118,7 +109,7 @@ h3{
 article{
     background-color: rgba(184, 184, 184, 0.342);
     border-radius: 15px;
-    padding: 24px;
+    padding: 16px;
     margin: 20px 15% 10px 15%;
 }
 .cartao{
@@ -129,8 +120,8 @@ section{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 100px;
-    padding: 50px;
+    margin: 200px;
+    padding: 13px;
     text-align: center;
 }
 section img{
@@ -146,10 +137,11 @@ section img{
     background-color: rgb(138, 12, 12);
     border-radius: 79px;
     width: auto;
+    margin-block: 10px;
 }
 .imagens{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 }
 .cartoes{
     flex-direction: row;
